@@ -83,6 +83,7 @@ public class server implements ApplicationRunner, WebMvcConfigurer{
 	static JSONArray databaseMembers = new JSONArray();
 	static HashMap<Integer, JSONObject> memberInfo = new HashMap();
 	
+	
 	static JSONArray membersName = new JSONArray();
 	
 	static JSONArray todayPostings = new JSONArray(); 
